@@ -1,0 +1,14 @@
+Get untuk mengambil data dari DB
+- http://localhost:8080/v1/messages
+- http://localhost:8080/v1/messages/4
+Post untuk memasukkan data
+- http://localhost:8080/v1/messages
+json  
+{
+        "messageText": "hello...."
+    }
+
+Delete untuk menghapus data
+- http://localhost:8080/v1/messages/3
+PUT untuk mengubah data
+- http://localhost:8080/v1/messages
